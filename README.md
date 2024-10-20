@@ -20,9 +20,6 @@ A simple, mobile-friendly calculator built using React, designed to perform basi
 
 ![Desktop Calculator Screenshot](./public/screenshots/desktop.png)
 
-## Demo
-
-You can check out the live demo [here](#).
 
 ## Installation
 
@@ -31,7 +28,7 @@ To run this project locally, follow the steps below:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/react-calculator.git
+   git clone https://github.com/bhav380-2/ReactSkillTest-CalculatorProject.git
 
 2. Navigate to the project directory:
 
@@ -56,6 +53,9 @@ The app will be available at http://localhost:3000.
 - Click `=` to evaluate the result.
 - Use the `C` button to clear the input and reset the calculator.
 
+## Hosted Link 
+https://bhav380-2.github.io/ReactSkillTest-CalculatorProject/
+
 ## Technologies Used
 
 - **React**: Frontend library used to build the calculator.
@@ -67,3 +67,4 @@ The app will be available at http://localhost:3000.
 - Add support for more advanced operations like percentage, square root, etc.
 - Include a theme switcher for dark and light modes.
 - Add keyboard support for faster input.
+

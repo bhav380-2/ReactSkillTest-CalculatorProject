@@ -26,16 +26,18 @@ const Calculator = () => {
     setDisplay('');
   };
 
-
+  // Button options
   const options = ['1', '2', '3', '+', '4', '5', '6', '-', '7', '8', '9', '*', '0', '=', '/', 'C'];
 
   return (
     <div className="calculator">
 
+      {/* Display component shows Input and Result on Screen*/}
       <Display value={display} />
 
       <div className="buttons">
-        
+
+         {/*Iterate on all button options and call Button component for each button option*/}
         {options.map((item, index) =>
           item === '=' ? (
             <Button key={index} label={item} onClick={handleEqual} />
